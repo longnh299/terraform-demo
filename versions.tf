@@ -2,7 +2,7 @@ terraform { #big block
     required_providers { #define cloud provider: aws, azure, gcp
       aws = {
         source = "hashicorp/aws"
-        version = "~> 5.11"
+        version = "~> 5.11" # version of cloud provider
       }
     }
 
