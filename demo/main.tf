@@ -17,3 +17,4 @@ resource "aws_vpc" "long" {
 }
 
 # name có thể giống nhau nhưng reference name phải khác nhau , reference name là string sau loại aws resource
+
