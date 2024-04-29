@@ -1,0 +1,1 @@
+# dùng để truyền biến vào (có thể biến tự định nghĩa hoặc biến lấy từ output.tf)
