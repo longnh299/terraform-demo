@@ -20,3 +20,15 @@ variable "public_subnets" {
 variable "frontend_sg" {
   
 }
+
+variable "alb_tg_name" {
+  
+}
+
+variable "backend_sg" {
+  
+}
+
+variable "private_subnets" {
+  
+}
