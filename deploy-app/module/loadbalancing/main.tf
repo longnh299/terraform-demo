@@ -25,7 +25,7 @@ resource "aws_lb_listener" "three_tier_lb" {
 
     default_action {
       type = "forward"
-      target_group_arn = aws_lb_target_group.three_tier_lb.arn
+      target_group_arn = [aws_lb_target_group.three_tier_tg.arn]
     }
 
 }
