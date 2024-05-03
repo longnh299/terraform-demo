@@ -32,3 +32,7 @@ variable "backend_sg" {
 variable "private_subnets" {
   
 }
+
+variable "ssh_key" {
+  
+}
