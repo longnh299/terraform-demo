@@ -11,9 +11,9 @@ variable "private_sn_count" {
   
 }
 
-variable "cidr_block" {
+# variable "cidr_block" {
   
-}
+# }
 variable "access_ip" {
   
 }

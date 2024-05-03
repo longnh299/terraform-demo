@@ -36,3 +36,7 @@ output "private_subnets" {
   value = aws_subnet.three_tier_private_subnets.*.id
 }
 
+output "bastion_sg" {
+  value = aws_security_group.three_tier_bastion_sg.id
+}
+
